@@ -13,7 +13,7 @@ cinza escuro #242424 */
 }
 
 body {
-    background:linear-gradient(to right,#a8ddec,#042959);   
+    background:linear-gradient(to right,#a8ddec,#042959); 
     margin: auto;
     height: 90vh;
     width: 90vw;
@@ -29,11 +29,12 @@ h1 {
 header{
     background-color:white;
     margin: auto;     
-    height: 500px;   
-    width: 530px;    
+    height: 570px;   
+    width: 550px;    
     padding: 15px;  
-    border-radius: 10px;
+    border-radius: 12px;
     box-shadow: 2px 2px 2px #0429599c;  
+    padding-bottom: 1px;
 
 }
 p {
@@ -43,7 +44,10 @@ p {
     font-weight: bold;
 }
 fieldset {
-    padding: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
 }
 
 legend{
@@ -51,9 +55,24 @@ legend{
     font-weight: bold;
     border-color: #8F1B01;
 }
+
+input{
+    border-radius: 6px;
+    box-shadow: solid 2px #042959;
+
+}
+
+label {
+    margin:;
+}
+
 div{
     padding: 2px;
+
 }
-.coluna-50{
-    width: 25%;
+
+
+.botao{
+    text-align: center;
+    
 }
